@@ -14,4 +14,10 @@ def remove_fees(entrance_fee)
   return @wallet
 end
 
+def favourite_song_playing(song_playing, guest)
+ if song_playing == guest.favourite_song
+   return "Whoo!"
+ end 
+end
+
 end
